@@ -5,8 +5,8 @@ from sklearn.ensemble import RandomForestClassifier
 import pickle
 
 # Load the trained model and scaler
-loaded_model = pickle.load(open('Output_Model\\best_model.pkl', 'rb'))
-scaler = pickle.load(open('Output_Model\\scaler.pkl', 'rb'))
+loaded_model = pickle.load(open('Output_Model/best_model.pkl', 'rb'))
+scaler = pickle.load(open('Output_Model/scaler.pkl', 'rb'))
 
 # Define a function to display predictions and insights
 def display_prediction(prediction):
