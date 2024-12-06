@@ -32,7 +32,7 @@ with col2 :
 
 
 st.markdown("#### Cleaned DataSet : ")
-df = pd.read_csv('data\Cleaned_marketing_campaign.csv')
+df = pd.read_csv('data/Cleaned_marketing_campaign.csv')
 df = functions.transform(df)
 
 st.dataframe(df)
